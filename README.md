@@ -1,7 +1,3 @@
-Here’s a **clean, professional, and hackathon-ready README** you can directly paste into your GitHub repository.
-
-No fluff. Clear structure. Investor-friendly. Judge-friendly.
-
 ---
 
 # 🚀 In-Folio
