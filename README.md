@@ -1,118 +1,249 @@
-# AMD\_-SLINGSHORT
+Here’s a **clean, professional, and hackathon-ready README** you can directly paste into your GitHub repository.
 
-In-Folio: Democratizing Professional Visibility
+No fluff. Clear structure. Investor-friendly. Judge-friendly.
 
-Built for the AMD Slingshot Hackathon
+---
 
-In-Folio is a dual-mode professional networking web application that bridges the gap between the corporate "white-collar" world and the local "skilled-labor" workforce. While platforms like LinkedIn cater to office roles, In-Folio provides a dedicated marketplace for artisans, tradesmen, and local businesses to build a portable digital reputation through visual proof.
+# 🚀 In-Folio
 
-🚀 The Problem
+### Democratizing Professional Visibility
 
-Most professional networks are text-heavy and corporate-centric. This leaves over 500 million skilled workers (painters, baristas, shop managers) digitally invisible. They rely on fragile word-of-mouth networks and lack a way to showcase their "craft" when moving across cities or countries.
+**Built for the AMD Slingshot Hackathon**
 
-💡 The Solution: Two Worlds, One App
+---
 
-In-Folio utilizes two separate, specialized account types to reduce complexity and provide targeted experiences:
+## 🌍 Overview
 
-Professional Mode: A traditional corporate networking environment focused on resumes, MNC job listings, and office-based careers.
+**In-Folio** is a dual-mode professional networking platform designed to bridge the gap between the corporate workforce and the skilled-labor ecosystem.
 
-Marketplace Mode: A visual-first ecosystem where workers post "Visual Imprints"—high-quality galleries of their work—to establish trust and merit-based credibility.
+While platforms like LinkedIn focus primarily on white-collar professionals, millions of skilled workers—painters, baristas, technicians, shop managers—remain digitally invisible.
 
-✨ Key Features
+In-Folio changes that.
 
-Integrated Identity Toggle: Seamlessly switch between the Professional and Marketplace environments.
+We provide a **visual-first, merit-based networking system** where craftsmanship becomes currency.
 
-AI Resume Maker: Powered by Google Gemini AI, this tool converts informal descriptions and "Visual Imprints" into professional-grade resumes.
+---
 
-Visual Portfolios: Dedicated project cards that prioritize images/videos over job titles.
+## 🚨 The Problem
 
-Localized Discovery: A proximity-based search to find verified local talent or gig opportunities instantly.
+Most professional platforms are:
 
-🛠️ Tech Stack
+- Text-heavy
+- Corporate-centric
+- Resume-focused
+- Biased toward office roles
 
-Frontend: React, TypeScript, Tailwind CSS v4.
+Over **500+ million skilled workers globally** depend on fragile word-of-mouth networks and lack portable digital credibility when relocating.
 
-Backend/Auth: Supabase (PostgreSQL, Auth, Edge Functions).
+They can _do the work_ — but cannot _prove the work_ digitally.
 
-AI Engine: Google Gemini AI API.
+---
 
-Performance: Optimized for AMD Ryzen™ and EPYC™ hardware.
+## 💡 The Solution — Two Worlds, One App
 
-⚙️ Installation & Setup
+In-Folio introduces **two specialized environments** inside a single unified identity:
 
-Follow these steps to get the project running locally.
+### 🏢 1. Professional Mode
 
-1. Prerequisites
+- Resume-based networking
+- Corporate job listings
+- MNC-focused hiring ecosystem
+- AI-powered resume generation
 
-Ensure you have Node.js installed on your machine. We recommend using pnpm for package management.
+### 🛠 2. Marketplace Mode
 
-2. Install Global Dependencies
+- Visual-first work portfolios
+- “Visual Imprints” (image/video proof of craftsmanship)
+- Localized gig discovery
+- Merit-based credibility scoring
 
+Users can seamlessly toggle between identities.
+
+---
+
+## ✨ Core Features
+
+### 🔄 Integrated Identity Toggle
+
+Switch between Professional & Marketplace modes instantly.
+
+### 🤖 AI Resume Maker
+
+Powered by **Google Gemini 1.5 Flash**, converts:
+
+- Informal descriptions
+- Visual Imprints
+- Raw project notes
+
+Into professional-grade resumes.
+
+### 📸 Visual Imprints
+
+High-quality galleries prioritizing:
+
+- Images
+- Videos
+- Before/after work
+- Project documentation
+
+Trust built through proof, not titles.
+
+### 📍 Localized Discovery
+
+Find verified talent nearby using proximity-based search.
+
+---
+
+## 🧠 Tech Stack
+
+### 🎨 Frontend
+
+- React
+- TypeScript
+- Tailwind CSS v4
+- Glassmorphism UI
+
+### 🔐 Backend & Auth
+
+- Supabase
+  - PostgreSQL
+  - Authentication
+  - Row Level Security (RLS)
+  - Edge Functions (Deno)
+
+### 🤖 AI Engine
+
+- Google Gemini AI API (Gemini 1.5 Flash)
+
+### ⚡ Performance Optimization
+
+- Optimized for AMD Ryzen™ & EPYC™ hardware
+- Fast frontend builds
+- Efficient AI inference handling
+
+---
+
+## 🏗 System Architecture
+
+```
+Frontend (React SPA)
+        ↓
+Supabase Auth Layer
+        ↓
+Supabase Edge Functions (API Logic)
+        ↓
+PostgreSQL + RLS
+        ↓
+Gemini AI Integration
+```
+
+### Architecture Layers
+
+- **Frontend Layer** – Responsive SPA with glassmorphism design
+- **Auth Layer** – Secure real-time authentication
+- **API Layer** – Supabase Edge Functions (Deno runtime)
+- **Data Layer** – PostgreSQL with strict RLS policies
+- **AI Layer** – Resume & content enhancement via Gemini
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Prerequisites
+
+- Node.js (Latest LTS recommended)
+- pnpm (recommended) or npm/yarn
+
+---
+
+### 2️⃣ Install Package Manager (Optional)
+
+```bash
 npm install -g pnpm
+```
 
-# Optional: if you prefer yarn
+---
 
-# npm install -g yarn
+### 3️⃣ Install Dependencies
 
-3. Install Project Dependencies
-
-Run these commands in the project root directory:
-
-# Install Gemini AI SDK
-
+```bash
+# Gemini AI SDK
 npm install @google/generative-ai
 
 # Core React dependencies
-
 npm install react react-dom
 
-# Install all other dependencies
-
+# Install remaining dependencies
 pnpm install
-
 # OR
-
 npm install
-
 # OR
-
 yarn install
+```
 
-4. Environment Variables
+---
 
-Create a .env file in the root and add your keys:
+### 4️⃣ Environment Variables
 
+Create a `.env` file in the root directory:
+
+```env
 VITE_SUPABASE_URL=your_supabase_url
 VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 VITE_GEMINI_API_KEY=your_gemini_api_key
+```
 
-5. Run the Project
+---
 
-Start the development server:
+### 5️⃣ Run Development Server
 
+```bash
 pnpm dev
+```
 
-The application will be available at:
-➜ Local: http://localhost:5173/
+App runs at:
 
-To expose the project to your network, use pnpm dev --host.
+```
+http://localhost:5173/
+```
 
-🏛️ System Architecture
+To expose to network:
 
-In-Folio follows a layered architecture:
+```bash
+pnpm dev --host
+```
 
-Frontend Layer: React SPA with Glassmorphism UI.
+---
 
-Auth Layer: Real-time Supabase Auth with fallback mechanisms.
+## 🏆 AMD Slingshot Hackathon
 
-API Layer: Supabase Edge Functions (Deno) handling business logic.
+In-Folio was built for the **AMD Slingshot Hackathon**, showcasing how AI + high-performance compute can democratize professional opportunity worldwide.
 
-Data Layer: PostgreSQL with Row Level Security (RLS).
+We leverage AMD’s processing capabilities for:
 
-AI Layer: Direct integration with Gemini 1.5 Flash for resume generation.
+- Fast builds
+- Scalable inference
+- Optimized frontend performance
 
-🏆 AMD Slingshot Hackathon
+---
 
-This project was developed for the AMD Slingshot Hackathon, focusing on how AI and high-performance compute can empower the global workforce. We leverage AMD's processing power to handle intensive frontend builds and AI inference requests.
+## 🎯 Vision
 
-Developed with ❤️ by [DEV legion]
+We believe:
+
+> Skill should be portable.
+> Reputation should be visual.
+> Opportunity should be equal.
+
+In-Folio is not just a networking platform.
+It’s a **digital reputation layer for the global workforce**.
+
+---
+
+## 👨‍💻 Developed By
+
+**DEV Legion**
+
+Built with ❤️ for innovation, equity, and impact.
+
+---
