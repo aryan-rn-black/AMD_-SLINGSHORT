@@ -1,10 +1,8 @@
----
-
 # 🚀 In-Folio
 
 ### Democratizing Professional Visibility
 
-**Built for the AMD Slingshot Hackathon**
+_Built for the AMD Slingshot Hackathon_
 
 ---
 
@@ -12,11 +10,24 @@
 
 **In-Folio** is a dual-mode professional networking platform designed to bridge the gap between the corporate workforce and the skilled-labor ecosystem.
 
-While platforms like LinkedIn focus primarily on white-collar professionals, millions of skilled workers—painters, baristas, technicians, shop managers—remain digitally invisible.
+Platforms like LinkedIn dominate corporate hiring.
 
-In-Folio changes that.
+But what about:
 
-We provide a **visual-first, merit-based networking system** where craftsmanship becomes currency.
+- The painter with 10 years of mastery?
+- The barista who built a brand following?
+- The technician who can rebuild an engine blindfolded?
+
+They have skill.
+They have proof.
+They have no platform.
+
+Word-of-mouth is fragile.
+Relocation resets reputation.
+Talent goes unseen.
+
+This is not a feature gap.
+This is a systemic exclusion problem.
 
 ---
 
@@ -24,7 +35,6 @@ We provide a **visual-first, merit-based networking system** where craftsmanship
 
 Most professional platforms are:
 
-- Text-heavy
 - Corporate-centric
 - Resume-focused
 - Biased toward office roles
@@ -51,7 +61,6 @@ In-Folio introduces **two specialized environments** inside a single unified ide
 - Visual-first work portfolios
 - “Visual Imprints” (image/video proof of craftsmanship)
 - Localized gig discovery
-- Merit-based credibility scoring
 
 Users can seamlessly toggle between identities.
 
