@@ -160,10 +160,10 @@ Gemini AI Integration
 https://amd-slingshort.vercel.app/
 ```
       OR
-### 2️⃣ Paste it in any browser
-
+### 2️⃣ Click It
+<div style="width:100%;height:200px">
 [![Click me](https://miro.medium.com/v2/resize:fit:1400/1*REfqHJ0KREL21X2yYSdaMw.gif)](https://amd-slingshort.vercel.app/)
-
+</div>
 ---
 
 ## ⚙️ Installation & Setup
