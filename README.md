@@ -162,7 +162,7 @@ https://amd-slingshort.vercel.app/
       OR
 ### 2️⃣ Click It
 <a href="https://amd-slingshort.vercel.app/">
-  <img src="https://miro.medium.com/v2/resize:fit:1400/1*REfqHJ0KREL21X2yYSdaMw.gif" width="100%" alt="Click me" style="height:40px">
+  <img src="https://miro.medium.com/v2/resize:fit:1400/1*REfqHJ0KREL21X2yYSdaMw.gif" width="100%" alt="Click me" style="height:10%">
 </a>
 
 ---
