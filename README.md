@@ -152,6 +152,20 @@ Gemini AI Integration
 
 ---
 
+## ⚙️ Preview
+
+### 1️⃣ Paste it in any browser
+
+```bash
+https://amd-slingshort.vercel.app/
+```
+      OR
+### 2️⃣ Paste it in any browser
+
+[![Click me](https://miro.medium.com/v2/resize:fit:1400/1*REfqHJ0KREL21X2yYSdaMw.gif)](https://amd-slingshort.vercel.app/)
+
+---
+
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Prerequisites
