@@ -159,8 +159,11 @@ Gemini AI Integration
 ```bash
 https://amd-slingshort.vercel.app/
 ```
+
       OR
+
 ### 2️⃣ Click It
+
 <a href="https://amd-slingshort.vercel.app/">
   <img src="https://miro.medium.com/v2/resize:fit:1400/1*REfqHJ0KREL21X2yYSdaMw.gif" width="100%" alt="Click me" style="height:200px">
 </a>
@@ -265,5 +268,7 @@ It’s a **digital reputation layer for the global workforce**.
 **DEV Legion**
 
 Built with ❤️ for innovation, equity, and impact.
+
+By-Aryan Pandey & Aryan Patidar
 
 ---
